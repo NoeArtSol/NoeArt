@@ -41,4 +41,3 @@ const NoeArtGallery = () => {
 };
 
 export default NoeArtGallery;
-
