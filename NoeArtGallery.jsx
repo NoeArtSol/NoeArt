@@ -8,8 +8,11 @@ const NoeArtGallery = () => {
   ];
 
   const stories = [
-    { id: 1, title: "El Mirall de Llum", text: "Un conte sobre la recerca de la pròpia llum." },
-    { id: 2, title: "El Bosc dels Somnis", text: "Un viatge oníric a través d'un bosc màgic." }
+    { id: 1, title: "El Mirall de Llum", text: "Un dia, la Noemí va trobar un mirall màgic que reflectia la seva ànima..." },
+    { id: 2, title: "El Bosc dels Somnis", text: "Enmig d'un bosc encantat, una nena es va perdre entre els somnis..." },
+    { id: 3, title: "El Passatge Secret", text: "Darrere una porta oculta, hi havia un món ple de misteris i ombres..." },
+    { id: 4, title: "El Viatge a l’Infinit", text: "Explorant les profunditats del seu univers interior, va trobar respostes inesperades..." },
+    { id: 5, title: "L’Harmonia Perduda", text: "Quan el vent va destruir el jardí de flors, la natura va lluitar per renéixer..." }
   ];
 
   return (
@@ -41,4 +44,3 @@ const NoeArtGallery = () => {
 };
 
 export default NoeArtGallery;
-
