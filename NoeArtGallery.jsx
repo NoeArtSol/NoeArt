@@ -5,10 +5,10 @@ const NoeArtGallery = () => {
     { id: 3, title: "Herbes Encantades", image: "https://noeartsol.github.io/NoeArt_Web/estrella.jpeg", description: "Les plantes que guarden secrets." },
     { id: 4, title: "El Pont de la Vaqueta", image: "https://noeartsol.github.io/NoeArt_Web/ombres.jpeg", description: "Una vaqueta en un viatge inesperat." },
     { id: 5, title: "El Bany dels Colors", image: "https://noeartsol.github.io/NoeArt_Web/interior.jpeg", description: "L’aigua que canvia de color amb els somnis." },
-    { id: 6, title: "Pluja d’Amor", image: "https://noeartsol.github.io/NoeArt_Web/pluja_amor.jpeg", description: "Dos cors sota un mateix paraigua." },
+    { id: 6, title: "Pluja d’Amor", image: "https://noeartsol.github.io/NoeArt_Web/pluja.jpeg", description: "Dos cors sota un mateix paraigua." },
     { id: 7, title: "La Nena dels Patins", image: "https://noeartsol.github.io/NoeArt_Web/patins.jpeg", description: "Una cursa cap a la felicitat." },
     { id: 8, title: "El Jardí dels Cors", image: "https://noeartsol.github.io/NoeArt_Web/flors.jpeg", description: "Un jardí on tot creix amb amor." },
-    { id: 9, title: "Música a les Muntanyes", image: "https://noeartsol.github.io/NoeArt_Webunivers.jpeg", description: "La natura també canta." }
+    { id: 9, title: "Música a les Muntanyes", image: "https://noeartsol.github.io/NoeArt_Web/univers.jpeg", description: "La natura també canta." }
   ];
 
   const stories = [
