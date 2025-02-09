@@ -1,7 +1,10 @@
 const NoeArtGallery = () => {
   const artworks = [
-    { id: 1, title: "Llum Interior", image: "https://github.com/NoeArtSol/NoeArt/blob/5e7f8db2ef5544ef4dabcb38d49e719d119609f9/Lluminterior.jpeg", description: "Un viatge a la pròpia llum." },
-    { id: 2, title: "Somnis Fragmentats", image: "https://github.com/NoeArtSol/NoeArt/blob/5e7f8db2ef5544ef4dabcb38d49e719d119609f9/BoscSomnis.jpeg", description: "Quan la realitat es trenca en colors." }
+    { id: 1, title: "Llum Interior", image: "https://noeartsol.github.io/NoeArt/Lluminterior.jpeg", description: "Un viatge a la pròpia llum." },
+    { id: 2, title: "Somnis Fragmentats", image: "https://noeartsol.github.io/NoeArt/BoscSomnis.jpeg", description: "Quan la realitat es trenca en colors." },
+    { id: 3, title: "El Camí de les Ombres", image: "https://noeartsol.github.io/NoeArt/ElCamidelesOmbres.jpeg", description: "Un viatge entre llum i foscor." },
+    { id: 4, title: "Univers Interior", image: "https://noeartsol.github.io/NoeArt/UniversInterior.jpeg", description: "Els misteris de la ment i l’espai." },
+    { id: 5, title: "Flors en la Tempesta", image: "https://noeartsol.github.io/NoeArt/FlorsenlaTempesta.jpeg", description: "La bellesa enmig del caos." }
   ];
 
   const stories = [
