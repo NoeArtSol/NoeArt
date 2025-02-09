@@ -4,15 +4,32 @@ const NoeArtGallery = () => {
     { id: 2, title: "Somnis Fragmentats", image: "https://via.placeholder.com/300", description: "Quan la realitat es trenca en colors." }
   ];
 
+  const stories = [
+    { id: 1, title: "El Mirall de Llum", text: "Un conte sobre la recerca de la pròpia llum." },
+    { id: 2, title: "El Bosc dels Somnis", text: "Un viatge oníric a través d'un bosc màgic." }
+  ];
+
   return (
-    <div style={{ textAlign: "center", fontFamily: "Arial, sans-serif" }}>
+    <div className="container">
       <h2>NoeArt - Galeria Interactiva</h2>
-      <div style={{ display: "flex", justifyContent: "center", gap: "20px", flexWrap: "wrap" }}>
+      <div className="gallery">
         {artworks.map((art) => (
-          <div key={art.id} style={{ border: "1px solid #ddd", padding: "10px", borderRadius: "8px", width: "300px" }}>
-            <img src={art.image} alt={art.title} style={{ width: "100%", borderRadius: "8px" }} />
+          <div key={art.id} className="art-card">
+            <img src={art.image} alt={art.title} />
             <h3>{art.title}</h3>
             <p>{art.description}</p>
+            <button className="like-btn">❤️ M'agrada</button>
+          </div>
+        ))}
+      </div>
+
+      <h2>📖 Contes Inspirats</h2>
+      <div className="stories">
+        {stories.map((story) => (
+          <div key={story.id} className="story-card">
+            <h3>{story.title}</h3>
+            <p>{story.text}</p>
+            <button className="read-btn">📖 Llegeix</button>
           </div>
         ))}
       </div>
