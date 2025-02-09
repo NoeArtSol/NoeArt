@@ -1,14 +1,14 @@
 const NoeArtGallery = () => {
   const artworks = [
-    { id: 1, title: "L'Arbre dels Somnis", image: "https://noeartsol.github.io/NoeArt_Web/arbre_somnis.jpeg", description: "Un arbre que connecta amb l'univers." },
-    { id: 2, title: "El Mirall de l'Ànima", image: "https://noeartsol.github.io/NoeArt_Web/mirall_anima.jpeg", description: "Quan el reflex mostra més del que veiem." },
-    { id: 3, title: "Herbes Encantades", image: "https://noeartsol.github.io/NoeArt_Web/herbes_encantades.jpeg", description: "Les plantes que guarden secrets." },
-    { id: 4, title: "El Pont de la Vaqueta", image: "https://noeartsol.github.io/NoeArt_Web/pont_vaqueta.jpeg", description: "Una vaqueta en un viatge inesperat." },
-    { id: 5, title: "El Bany dels Colors", image: "https://noeartsol.github.io/NoeArt_Web/bany_colors.jpeg", description: "L’aigua que canvia de color amb els somnis." },
+    { id: 1, title: "L'Arbre dels Somnis", image: "https://noeartsol.github.io/NoeArt_Web/bosc.jpeg", description: "Un arbre que connecta amb l'univers." },
+    { id: 2, title: "El Mirall de l'Ànima", image: "https://noeartsol.github.io/NoeArt_Web/mirall.jpeg", description: "Quan el reflex mostra més del que veiem." },
+    { id: 3, title: "Herbes Encantades", image: "https://noeartsol.github.io/NoeArt_Web/estrella.jpeg", description: "Les plantes que guarden secrets." },
+    { id: 4, title: "El Pont de la Vaqueta", image: "https://noeartsol.github.io/NoeArt_Web/ombres.jpeg", description: "Una vaqueta en un viatge inesperat." },
+    { id: 5, title: "El Bany dels Colors", image: "https://noeartsol.github.io/NoeArt_Web/interior.jpeg", description: "L’aigua que canvia de color amb els somnis." },
     { id: 6, title: "Pluja d’Amor", image: "https://noeartsol.github.io/NoeArt_Web/pluja_amor.jpeg", description: "Dos cors sota un mateix paraigua." },
-    { id: 7, title: "La Nena dels Patins", image: "https://noeartsol.github.io/NoeArt_Web/nena_patins.jpeg", description: "Una cursa cap a la felicitat." },
-    { id: 8, title: "El Jardí dels Cors", image: "https://noeartsol.github.io/NoeArt_Web/jardi_cors.jpeg", description: "Un jardí on tot creix amb amor." },
-    { id: 9, title: "Música a les Muntanyes", image: "https://noeartsol.github.io/NoeArt_Web/musica_muntanyes.jpeg", description: "La natura també canta." }
+    { id: 7, title: "La Nena dels Patins", image: "https://noeartsol.github.io/NoeArt_Web/patins.jpeg", description: "Una cursa cap a la felicitat." },
+    { id: 8, title: "El Jardí dels Cors", image: "https://noeartsol.github.io/NoeArt_Web/flors.jpeg", description: "Un jardí on tot creix amb amor." },
+    { id: 9, title: "Música a les Muntanyes", image: "https://noeartsol.github.io/NoeArt_Webunivers.jpeg", description: "La natura també canta." }
   ];
 
   const stories = [
