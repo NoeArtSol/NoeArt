@@ -1,10 +1,10 @@
 const NoeArtGallery = () => {
   const artworks = [
-    { id: 1, title: "Llum Interior", image: "https://noeartsol.github.io/NoeArt_Web/Lluminterior.jpeg", description: "Un viatge a la pròpia llum." },
-    { id: 2, title: "Somnis Fragmentats", image: "https://noeartsol.github.io/NoeArt_Web/BoscSomnis.jpeg", description: "Quan la realitat es trenca en colors." },
-    { id: 3, title: "El Camí de les Ombres", image: "https://noeartsol.github.io/NoeArt_Web/ElCamidelesOmbres.jpeg", description: "Un viatge entre llum i foscor." },
-    { id: 4, title: "Univers Interior", image: "https://noeartsol.github.io/NoeArt_Web/UniversInterior.jpeg", description: "Els misteris de la ment i l’espai." },
-    { id: 5, title: "Flors en la Tempesta", image: "https://noeartsol.github.io/NoeArt_Web/FlorsenlaTempesta.jpeg", description: "La bellesa enmig del caos." }
+    { id: 1, title: "Llum Interior", image: "https://noeartsol.github.io/NoeArt_Web/interior.jpeg", description: "Un viatge a la pròpia llum." },
+    { id: 2, title: "Somnis Fragmentats", image: "https://noeartsol.github.io/NoeArt_Web/bosc.jpeg", description: "Quan la realitat es trenca en colors." },
+    { id: 3, title: "El Camí de les Ombres", image: "https://noeartsol.github.io/NoeArt_Web/ombres.jpeg", description: "Un viatge entre llum i foscor." },
+    { id: 4, title: "Univers Interior", image: "https://noeartsol.github.io/NoeArt_Web/univers.jpeg", description: "Els misteris de la ment i l’espai." },
+    { id: 5, title: "Flors en la Tempesta", image: "https://noeartsol.github.io/NoeArt_Web/flors.jpeg", description: "La bellesa enmig del caos." }
   ];
 
   const stories = [
@@ -41,3 +41,4 @@ const NoeArtGallery = () => {
 };
 
 export default NoeArtGallery;
+
